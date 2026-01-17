@@ -1,0 +1,14 @@
+# Target labels
+ flac-populate
+# Source files and their labels
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/flac-subbuild/CMakeFiles/flac-populate
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/flac-subbuild/CMakeFiles/flac-populate.rule
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/flac-subbuild/CMakeFiles/flac-populate-complete.rule
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-build.rule
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure.rule
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-download.rule
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-install.rule
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-mkdir.rule
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch.rule
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-test.rule
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-update.rule

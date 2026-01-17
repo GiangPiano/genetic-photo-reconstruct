@@ -1,0 +1,3 @@
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate.dir
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/ogg-subbuild/CMakeFiles/edit_cache.dir
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/ogg-subbuild/CMakeFiles/rebuild_cache.dir

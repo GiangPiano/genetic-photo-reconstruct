@@ -1,0 +1,14 @@
+# Target labels
+ freetype-populate
+# Source files and their labels
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate.rule
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate-complete.rule
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build.rule
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure.rule
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-download.rule
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install.rule
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-mkdir.rule
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch.rule
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test.rule
+/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update.rule
