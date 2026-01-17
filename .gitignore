@@ -1,1 +1,5 @@
 .DS_Store
+build/
+assets/
+evolve
+evolve.exe
