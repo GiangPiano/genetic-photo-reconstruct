@@ -1,9 +1,9 @@
 [
 {
   "directory": "/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build",
-  "command": "/usr/bin/c++ -DIMGUI_USER_CONFIG=\\\"imconfig-SFML.h\\\" -DSFML_STATIC -I\"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/sfml-src/include\" -I\"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-src\" -isystem \"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src\" -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o CMakeFiles/GeneticPhotoRecreation.dir/src/main.cpp.o -c \"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/src/main.cpp\"",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I\"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/sfml-src/include\" -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o CMakeFiles/evolve.dir/src/main.cpp.o -c \"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/src/main.cpp\"",
   "file": "/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/src/main.cpp",
-  "output": "CMakeFiles/GeneticPhotoRecreation.dir/src/main.cpp.o"
+  "output": "CMakeFiles/evolve.dir/src/main.cpp.o"
 },
 {
   "directory": "/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/sfml-build/src/SFML/System",
@@ -1270,47 +1270,5 @@
   "command": "/usr/bin/cc  -I\"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/vorbis-src/include\" -I\"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/ogg-src/include\" -I\"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/ogg-build/include\" -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o CMakeFiles/vorbisfile.dir/vorbisfile.c.o -c \"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/vorbis-src/lib/vorbisfile.c\"",
   "file": "/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/vorbis-src/lib/vorbisfile.c",
   "output": "_deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/vorbisfile.c.o"
-},
-{
-  "directory": "/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-build",
-  "command": "/usr/bin/c++ -DIMGUI_USER_CONFIG=\\\"imconfig-SFML.h\\\" -DSFML_STATIC -I\"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-src\" -I\"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/sfml-src/include\" -isystem \"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src\" -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o CMakeFiles/ImGui-SFML.dir/imgui-SFML.cpp.o -c \"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-src/imgui-SFML.cpp\"",
-  "file": "/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-src/imgui-SFML.cpp",
-  "output": "_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/imgui-SFML.cpp.o"
-},
-{
-  "directory": "/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-build",
-  "command": "/usr/bin/c++ -DIMGUI_USER_CONFIG=\\\"imconfig-SFML.h\\\" -DSFML_STATIC -I\"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-src\" -I\"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/sfml-src/include\" -isystem \"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src\" -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o CMakeFiles/ImGui-SFML.dir/__/imgui-src/imgui.cpp.o -c \"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src/imgui.cpp\"",
-  "file": "/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src/imgui.cpp",
-  "output": "_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/__/imgui-src/imgui.cpp.o"
-},
-{
-  "directory": "/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-build",
-  "command": "/usr/bin/c++ -DIMGUI_USER_CONFIG=\\\"imconfig-SFML.h\\\" -DSFML_STATIC -I\"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-src\" -I\"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/sfml-src/include\" -isystem \"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src\" -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o CMakeFiles/ImGui-SFML.dir/__/imgui-src/imgui_demo.cpp.o -c \"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src/imgui_demo.cpp\"",
-  "file": "/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src/imgui_demo.cpp",
-  "output": "_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/__/imgui-src/imgui_demo.cpp.o"
-},
-{
-  "directory": "/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-build",
-  "command": "/usr/bin/c++ -DIMGUI_USER_CONFIG=\\\"imconfig-SFML.h\\\" -DSFML_STATIC -I\"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-src\" -I\"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/sfml-src/include\" -isystem \"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src\" -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o CMakeFiles/ImGui-SFML.dir/__/imgui-src/imgui_draw.cpp.o -c \"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src/imgui_draw.cpp\"",
-  "file": "/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src/imgui_draw.cpp",
-  "output": "_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/__/imgui-src/imgui_draw.cpp.o"
-},
-{
-  "directory": "/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-build",
-  "command": "/usr/bin/c++ -DIMGUI_USER_CONFIG=\\\"imconfig-SFML.h\\\" -DSFML_STATIC -I\"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-src\" -I\"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/sfml-src/include\" -isystem \"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src\" -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o CMakeFiles/ImGui-SFML.dir/__/imgui-src/imgui_tables.cpp.o -c \"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src/imgui_tables.cpp\"",
-  "file": "/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src/imgui_tables.cpp",
-  "output": "_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/__/imgui-src/imgui_tables.cpp.o"
-},
-{
-  "directory": "/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-build",
-  "command": "/usr/bin/c++ -DIMGUI_USER_CONFIG=\\\"imconfig-SFML.h\\\" -DSFML_STATIC -I\"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-src\" -I\"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/sfml-src/include\" -isystem \"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src\" -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o CMakeFiles/ImGui-SFML.dir/__/imgui-src/imgui_widgets.cpp.o -c \"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src/imgui_widgets.cpp\"",
-  "file": "/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src/imgui_widgets.cpp",
-  "output": "_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/__/imgui-src/imgui_widgets.cpp.o"
-},
-{
-  "directory": "/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-build",
-  "command": "/usr/bin/c++ -DIMGUI_USER_CONFIG=\\\"imconfig-SFML.h\\\" -DSFML_STATIC -I\"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-src\" -I\"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/sfml-src/include\" -isystem \"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src\" -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o CMakeFiles/ImGui-SFML.dir/__/imgui-src/misc/cpp/imgui_stdlib.cpp.o -c \"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp\"",
-  "file": "/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp",
-  "output": "_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/__/imgui-src/misc/cpp/imgui_stdlib.cpp.o"
 }
 ]

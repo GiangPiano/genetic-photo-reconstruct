@@ -189,17 +189,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named GeneticPhotoRecreation
+# Target rules for targets named evolve
 
 # Build rule for target.
-GeneticPhotoRecreation: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GeneticPhotoRecreation
-.PHONY : GeneticPhotoRecreation
+evolve: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 evolve
+.PHONY : evolve
 
 # fast build rule for target.
-GeneticPhotoRecreation/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GeneticPhotoRecreation.dir/build.make CMakeFiles/GeneticPhotoRecreation.dir/build
-.PHONY : GeneticPhotoRecreation/fast
+evolve/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/evolve.dir/build.make CMakeFiles/evolve.dir/build
+.PHONY : evolve/fast
 
 #=============================================================================
 # Target rules for targets named sfml-system
@@ -357,25 +357,12 @@ vorbisfile/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/build.make _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/build
 .PHONY : vorbisfile/fast
 
-#=============================================================================
-# Target rules for targets named ImGui-SFML
-
-# Build rule for target.
-ImGui-SFML: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ImGui-SFML
-.PHONY : ImGui-SFML
-
-# fast build rule for target.
-ImGui-SFML/fast:
-	$(MAKE) $(MAKESILENT) -f _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/build.make _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/build
-.PHONY : ImGui-SFML/fast
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GeneticPhotoRecreation.dir/build.make CMakeFiles/GeneticPhotoRecreation.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/evolve.dir/build.make CMakeFiles/evolve.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -383,7 +370,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GeneticPhotoRecreation.dir/build.make CMakeFiles/GeneticPhotoRecreation.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/evolve.dir/build.make CMakeFiles/evolve.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -391,7 +378,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GeneticPhotoRecreation.dir/build.make CMakeFiles/GeneticPhotoRecreation.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/evolve.dir/build.make CMakeFiles/evolve.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -410,9 +397,8 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... FLAC"
-	@echo "... GeneticPhotoRecreation"
-	@echo "... ImGui-SFML"
 	@echo "... benchmark_residual"
+	@echo "... evolve"
 	@echo "... freetype"
 	@echo "... ogg"
 	@echo "... sfml-audio"

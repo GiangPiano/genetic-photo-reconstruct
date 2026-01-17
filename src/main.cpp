@@ -33,7 +33,7 @@ Config parseArguments(int argc, char* argv[]) {
             std::cout << "Usage: " << argv[0] << " [options]\n"
                       << "Options:\n"
                       << "  -i, --input <path>   Path to source image (default: ./assets/target.png)\n"
-                      << "  -s, --sprite <path>   Path to sprite image (default: input)\n"
+                      << "  -s, --sprite <path>  Path to sprite image (default: input)\n"
                       << "  -o, --output <path>  Path to save result (default: output.png)\n"
                       << "  -d, --dna <number>   Number of shapes to draw (default: 500)\n";
             exit(0);

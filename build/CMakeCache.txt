@@ -402,14 +402,6 @@ FETCHCONTENT_SOURCE_DIR_FLAC:PATH=
 FETCHCONTENT_SOURCE_DIR_FREETYPE:PATH=
 
 //When not empty, overrides where to find pre-populated content
-// for imgui
-FETCHCONTENT_SOURCE_DIR_IMGUI:PATH=
-
-//When not empty, overrides where to find pre-populated content
-// for imgui-sfml
-FETCHCONTENT_SOURCE_DIR_IMGUI-SFML:PATH=
-
-//When not empty, overrides where to find pre-populated content
 // for ogg
 FETCHCONTENT_SOURCE_DIR_OGG:PATH=
 
@@ -429,12 +421,6 @@ FETCHCONTENT_UPDATES_DISCONNECTED_FLAC:BOOL=OFF
 
 //Enables UPDATE_DISCONNECTED behavior just for population of Freetype
 FETCHCONTENT_UPDATES_DISCONNECTED_FREETYPE:BOOL=OFF
-
-//Enables UPDATE_DISCONNECTED behavior just for population of imgui
-FETCHCONTENT_UPDATES_DISCONNECTED_IMGUI:BOOL=OFF
-
-//Enables UPDATE_DISCONNECTED behavior just for population of imgui-sfml
-FETCHCONTENT_UPDATES_DISCONNECTED_IMGUI-SFML:BOOL=OFF
 
 //Enables UPDATE_DISCONNECTED behavior just for population of ogg
 FETCHCONTENT_UPDATES_DISCONNECTED_OGG:BOOL=OFF
@@ -471,27 +457,6 @@ GeneticPhotoRecreation_SOURCE_DIR:STATIC=/Users/giang/OneDrive - UTS/Project/gen
 
 //Path to a program.
 HAVE_GIT:FILEPATH=/opt/homebrew/bin/git
-
-//Path to a file.
-IMGUI_INCLUDE_DIR:PATH=/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-src
-
-//Path to a directory containing user ImGui config
-IMGUI_SFML_CONFIG_DIR:PATH=/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-src
-
-//Path where user's config header will be installed
-IMGUI_SFML_CONFIG_INSTALL_DIR:PATH=
-
-//Name of a custom user ImGui config header
-IMGUI_SFML_CONFIG_NAME:STRING=imconfig-SFML.h
-
-//Disable obsolete ImGui functions
-IMGUI_SFML_DISABLE_OBSOLETE_FUNCTIONS:BOOL=OFF
-
-//Enable compiler warnings
-IMGUI_SFML_ENABLE_WARNINGS:BOOL=OFF
-
-//Use default imconfig-SFML.h
-IMGUI_SFML_USE_DEFAULT_CONFIG:BOOL=ON
 
 //Install CMake package-config module
 INSTALL_CMAKE_CONFIG_MODULE:BOOL=ON
@@ -594,15 +559,6 @@ freetype_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 freetype_SOURCE_DIR:STATIC=/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/freetype-src
-
-//Value Computed by CMake
-imgui_sfml_BINARY_DIR:STATIC=/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-build
-
-//Value Computed by CMake
-imgui_sfml_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-imgui_sfml_SOURCE_DIR:STATIC=/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-src
 
 //Value Computed by CMake
 libogg_BINARY_DIR:STATIC=/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/ogg-build
@@ -766,7 +722,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=17
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=16
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJCXX_COMPILER
@@ -876,7 +832,7 @@ DODEFINE_EXTENSIONS:INTERNAL=1
 //Details about finding Iconv
 FIND_PACKAGE_MESSAGE_DETAILS_Iconv:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libiconv.tbd][/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include][v()]
 //Details about finding OpenGL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework][/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework][ ][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework][/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework][found components: OpenGL ][v()]
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/opt/homebrew/bin/pkg-config][v2.5.1()]
 //Details about finding Threads

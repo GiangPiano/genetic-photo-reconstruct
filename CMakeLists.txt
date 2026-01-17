@@ -13,38 +13,18 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(SFML)
 
-# ImGui-SFML v3 requires ImGui >= 1.91.1
-FetchContent_Declare(
-    imgui
-    GIT_REPOSITORY https://github.com/ocornut/imgui.git
-    GIT_TAG        v1.91.5
-)
-FetchContent_MakeAvailable(imgui)
+add_executable(evolve src/main.cpp)
+set_target_properties(evolve PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}")
 
-# Important: Set IMGUI_DIR so ImGui-SFML can find the headers
-set(IMGUI_SFML_FIND_SFML OFF)
-set(IMGUI_DIR ${imgui_SOURCE_DIR})
-
-FetchContent_Declare(
-    imgui-sfml
-    GIT_REPOSITORY https://github.com/SFML/imgui-sfml.git
-    GIT_TAG        master # Master branch currently tracks SFML 3 support
-)
-FetchContent_MakeAvailable(imgui-sfml)
-
-add_executable(${PROJECT_NAME} src/main.cpp)
-
-target_link_libraries(${PROJECT_NAME} 
+target_link_libraries(evolve
     PRIVATE 
     SFML::Graphics 
     SFML::Window 
     SFML::System
-    ImGui-SFML::ImGui-SFML
 )
 
-# Copies 'assets' folder to build directory if it exists
 if(EXISTS "${CMAKE_SOURCE_DIR}/assets")
-    add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
+    add_custom_command(TARGET evolve POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy_directory
         ${CMAKE_SOURCE_DIR}/assets
         ${CMAKE_BINARY_DIR}/assets

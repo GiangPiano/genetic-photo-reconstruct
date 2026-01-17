@@ -16,8 +16,7 @@
 		"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/flac-build/src/libFLAC/cmake_install.cmake",
 		"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/flac-build/microbench/cmake_install.cmake",
 		"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/vorbis-build/cmake_install.cmake",
-		"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/vorbis-build/lib/cmake_install.cmake",
-		"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/imgui-sfml-build/cmake_install.cmake"
+		"/Users/giang/OneDrive - UTS/Project/genetic-photo-recreation/build/_deps/vorbis-build/lib/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
