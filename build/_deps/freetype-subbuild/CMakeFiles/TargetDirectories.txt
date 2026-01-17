@@ -1,3 +1,0 @@
-/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate.dir
-/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/freetype-subbuild/CMakeFiles/edit_cache.dir
-/Users/giang/Library/CloudStorage/OneDrive-UTS/Project/genetic-photo-recreation/build/_deps/freetype-subbuild/CMakeFiles/rebuild_cache.dir
